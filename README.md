@@ -1,3 +1,10 @@
+# 
+Project: A website where you can save the mains and heroes you play in LoL
+ * Technologies to be used:
+ -Firebase: to save profile data
+ -Vercel: to deploy the site for free
+-API :  http://ddragon.leagueoflegends.com
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
