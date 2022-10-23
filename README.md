@@ -1,5 +1,4 @@
-# 
-Project: A website where you can save the mains and heroes you play in LoL
+**Project** : A website where you can save the mains and heroes you play in LoL
 ### Technologies to be used:
 - Firebase: to save profile data
 - Vercel: to deploy the site for free
