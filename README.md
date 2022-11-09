@@ -2,7 +2,6 @@
 ### Technologies to be used:
 - Firebase: to save profile data
 - Vercel: to deploy the site for free
-- API :  http://ddragon.leagueoflegends.com
 
 # Getting Started with Create React App
 
