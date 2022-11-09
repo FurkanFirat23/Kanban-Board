@@ -1,6 +1,22 @@
-### Technologies to be used:
-- Firebase: to save profile data
-- Vercel: to deploy the site for free
+# Kanban Board
+## Customizable todo-list,Kanban Board, Task Manager and so on
+
+
+
+
+## Demo
+  
+## Features
+
+- Drag-n-Drop cards and list
+- Delete and Add Cards and Lists
+- Update/Edit List and Cards
+  
+## 🛠 Technologies Used
+- React Js - `Javascript library to create UI`
+- react-beautiful-dnd - `npm Package`
+- Node Js - `JavaScript runtime built`
+- Visual Studio Code - `Code Editor`
 
 # Getting Started with Create React App
 
