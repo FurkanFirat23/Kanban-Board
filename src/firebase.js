@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { serverTimestamp, initializeFirestore } from "firebase/firestore";
+import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
@@ -13,11 +14,11 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
+const auth = getAuth();
 const db = initializeFirestore(app, {
   experimentalForceLongPolling: true,
   useFetchStreams: false,
 });
 const timestamp = serverTimestamp();
 
-export { app, db, timestamp, firebaseConfig };
+export { app, db, timestamp, firebaseConfig, auth };

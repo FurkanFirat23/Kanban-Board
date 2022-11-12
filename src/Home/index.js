@@ -7,6 +7,7 @@ import List from "../components/List";
 
 import StoreApi from "../utils/storeApi";
 import "./styles.css";
+
 import { db, timestamp } from "../firebase";
 import {
   addDoc,
@@ -24,8 +25,8 @@ export default function Home() {
   const [lists, setLists] = useState([]);
 
   useEffect(() => {
-    const q = query(collection(db, "lists"), orderBy("timestamp", "asc"));
-    onSnapshot(q, (snapShot) => {
+    const que = query(collection(db, "lists"), orderBy("timestamp", "asc"));
+    onSnapshot(que, (snapShot) => {
       setLists(
         snapShot.docs.map((doc) => {
           return {
