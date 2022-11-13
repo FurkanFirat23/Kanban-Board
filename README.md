@@ -1,11 +1,12 @@
 # Kanban Board
 ## Customizable todo-list,Kanban Board, Task Manager and so on
 
-### https://kanban-board-dd9c6uryq-furkanfirat23.vercel.app/
+
 
 
 
 ## Demo
+### https://kanban-board-dd9c6uryq-furkanfirat23.vercel.app/
   
 ## Features
 
@@ -15,7 +16,7 @@
   
 ## 🛠 Technologies Used
 - React Js - `Javascript library to create UI`
-- react-beautiful-dnd - `npm Package`
+- react-beautiful-dnd - `npm package`
 - Node Js - `JavaScript runtime built`
 - Visual Studio Code - `Code Editor`
 
