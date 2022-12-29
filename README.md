@@ -6,7 +6,7 @@
 
 
 ## Demo
-### https://kanban-board-dd9c6uryq-furkanfirat23.vercel.app/
+### https://kanban-board-ruddy.vercel.app/ (updated link)
   
 ## Features
 
